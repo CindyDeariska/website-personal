@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-          body, h1, h2, h3, h4, h5, h6 {
-            font-family: Arial, Helvetica, sans-serif;
+        body {
+            background-image: url('img/3.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            font-family: sans-serif;
+            background-position: center;
+            position: relative;
+            background-attachment: fixed;
         }
-        .w3-row-padding img {margin-bottom: 12px}
-       /* Set the width of the sidebar to 120px */
-       .w3-sidebar {width: 120px;background: #222;}
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: Arial, Helvetica, sans-serif;
+            /* background-color: rgba(6, 10, 9, 0.959); */
+        }
+
+        .w3-row-padding img {
+            margin-bottom: 12px
+        }
+
+        /* Set the width of the sidebar to 120px */
+        .w3-sidebar {
+            width: 120px;
+            background: #222;
+        }
+
         /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-        #main {margin-left: 120px}
-        @media only screen and (max-width: 600px) {#main {margin-left: 0;}}
+        #main {
+            margin-left: 120px
+        }
+
+        @media only screen and (max-width: 600px) {
+            #main {
+                margin-left: 0;
+            }
+        }
     </style>
 </head>
+
 <body>
     <!--sidebar-->
     <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
@@ -35,7 +69,7 @@
         </a>
         <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-black">
             <i class="fa fa-eye w3-xxlarge"></i>
-            <p>PHOTOS</p>
+            <p>PROJECT</p>
         </a>
         <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-black">
             <i class="fa fa-envelope w3-xxlarge"></i>
@@ -45,123 +79,127 @@
     <!--navbar-->
     <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
         <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-        <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-        <a href="#about" class="w3-bar-item w3-button" style="width: 25% !important">ABOUT</a>
-        <a href="#photos" class="w3-bar-item w3-button" style="width: 25% !important">PHOTOS</a>
-        <a href="#contact" class="w3-bar-item w3-button" style="width: 25% !important">CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width: 25% !important">ABOUT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width: 25% !important">PROJECT</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width: 25% !important">CONTACT</a>
+        </div>
     </div>
-</div>
-<!--page content-->
-<div class="w3-padding-large" id="main">
-    <!--header/home-->
-    <header class="w3-container w3-padding-32 w3-center" id="home">
-        <h1 class="w3-jumbo" <span class="w3-hide-small">I'm</span> Cindy Deariska.</h1>
-        <img src="img/profil.jpg" width="200" height="200" style="border-radius: 50%;">
-        <p class="w3-large">Still learn Web Developer.</p>
-    </header>
-<!--about section-->
-    <div class="w3-content w3-justify w3-text-black w3-padding-64" id="about">
-<h2 class="w3-text-light-black"><b>My Name </b></h2>
-<hr style="width: 200px" class="w3-opacity">
-<p>
-    hii, Saya adalah seorang mahasiswi yang sedang belajar membuat 
-    website pribadi menggunakan HTML dan CSS, kemudian juga akan belajar 
-    bahasa pemrograman seperti PHP & JavaScript, Wish me luck.
-</p>
-<h3 class="w3-padding-16 w3-text-light-black">My Skills</h3>
-<p class="w3-wide">HTML (beginner)</p>
-<div class="w3-white">
-    <div class="w3-dark-grey" style="height: 28px;width: 50%;"></div>
-</div>
-<p class="w3-wide">CSS (beginner)</p>
-<div class="w3-white">
-    <div class="w3-dark-grey" style="height: 28px;width: 45%;"></div>
-</div>
-<p class="w3-wide">Web Design (beginner)</p>
-<div class="w3-white">
-    <div class="w3-dark-grey" style="height: 28px;width: 40%;"></div>
-</div></br>
+    <!--page content-->
+    <div class="w3-padding-large" id="main">
+        <!--header/home-->
+        <header class="w3-container w3-padding-32 w3-center" id="home">
+            <h1 class="w3-jumbo" <span class="w3-hide-small">My</span> Portofolio</h1>
+            <img src="img/profil.jpg" width="200" height="200" style="border-radius: 50%;">
+            <p class="w3-large">I'M Cindy Deariska</p>
+        </header>
+        <!--about section-->
+        <div class="w3-content w3-justify w3-text-black w3-padding-64" id="about">
+            <h2 class="w3-text-light-black"><b>My Name </b></h2>
+            <hr style="width: 200px" class="w3-opacity">
+            <p class="w3-large">
+                hii, Saya adalah seorang fresh graduate yang sangat tertarik dibidang backend web developer, saat ini
+                saya masih fokus dalam mengembangkan dasar IT yang sudah saya dapatkan, Then wish me luck.
+            </p>
+            <h3 class="w3-padding-16 w3-text-light-black">My Skills</h3>
+            <p class="w3-wide">HTML (beginner)</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height: 28px;width: 50%;"></div>
+            </div>
+            <p class="w3-wide">CSS (beginner)</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height: 28px;width: 45%;"></div>
+            </div>
+            <p class="w3-wide">PHP (beginner)</p>
+            <div class="w3-white">
+                <div class="w3-dark-grey" style="height: 28px;width: 40%;"></div>
+            </div></br>
 
-<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-    <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">50%</span><br>
-       Menyelesaikan <br> System Backend
-    </div>
-    <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">100%</span><br>
-        Menyelesaikan Web Full Stack dengan system SPK
-    </div>
-    <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">50%</span><br>
-        Membuat Profil <br> Website Pribadi
-    </div>
-    <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">100%</span><br>
-        Hmmmm apa lagi yaa??
-    </div>
-</div>
+            <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">50%</span><br>
+                    Menyelesaikan <br> System Backend
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">50%</span><br>
+                    Menyelesaikan Web Full Stack dengan system SPK
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">50%</span><br>
+                    Membuat Profil <br> Website Pribadi
+                </div>
+                <!-- <div class="w3-quarter w3-section">
+                    <span class="w3-xlarge">100%</span><br>
+                    Hmmmm apa lagi yaa??
+                </div> -->
+            </div>
 
-<button class="w3-button w3-light-grey w3-padding-large w3-section">
-<i class="fa fa-download"> Dowload Resume</i>
-</button>
+            <button class="w3-button w3-light-grey w3-padding-large w3-section">
+                <i class="fa fa-download"> Dowload CV</i>
+            </button>
 
-<!--Portofolio-->
-<div class="w3-paddding-64 w3-conten w3-text-black" id="photos">
-    <h2 class="w3-text-light-black"><b>My Photos </b></h2>
-    <p> this all my friends on university, they cool and awesome.</p>
-</div>
+            <!--Portofolio-->
+            <div class="w3-paddding-64 w3-conten w3-text-black" id="photos">
+                <h2 class="w3-text-light-black"><b>My Project </b></h2>
+                <div class="w3-container">
+                    <div class="w3-panel w3-grey w3-round-xlarge w3-padding-16 widht" style="width: 40%;">
+                        <p class="w3-large; w3-animate-fading">Website dengan sistem pendukung keputusan menggunakan metode ARAS,
+                            membantu perusahaan dalam mengambil keputusan</p>
+                        <a href="http://ptkanalab.site/Login" class="w3-button w3-black w3-round-xxlarge">Link Aplikasi</a>
+                    </div>
+                </div>
+            </div>
 
-<!--grid untuk photo-->
-<div class="w3-row-padding" style="margin:0 -16px">
-    <div class="w3-half">
-<img src="img/gbr1.JPG" style="width: 100%">
-<img src="img/gbr2.JPG" style="width: 100%">
-<img src="img/gbr3.JPG" style="width: 100%">
-    </div>
+            <!--grid untuk photo-->
+            <div class="w3-row-padding w3-animate-zoom" style="margin:0 -16px">
+                <div class="w3-half" >
+                    <img src="img/gbr4.png" class="w3-round-large" alt="Norway" style="width: 100%">
+                    <img src="img/gbr5.png" class="w3-round-large" alt="Norway" style="width: 100%">
 
-<div class="w3-half">
-<img src="img/gbr1.JPG" style="width: 100%">
-<img src="img/gbr2.JPG" style="width: 100%">
-<img src="img/gbr3.JPG" style="width: 100%">
-<!--end photo grid-->
-</div>
- <!--end portofolio section-->
-</div>
-   <!--contaact-->
-   <div class="w3-padding-64 w3-content w3-text-black" id="contact">
-    <h2 class="w3-text-light-black">Contact Me</h2>
+                </div>
 
-    <div class="w3-section">
-<p><i class="fa fa-map-marker fa-fw w3-text-black w3-xlarge w3-margin-right"></i> Yogyakarta, Indonesia</p>
-<p><i class="fa fa-phone fa-fw w3-text-black w3-xlarge w3-margin-right"></i> Phone:, +62133067835</p>
-<p><i class="fa fa-envelope fa-fw w3-text-black w3-xlarge w3-margin-right"></i> Email: lcoding23@gmail.com</p>
-    <!--class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"-->
-    </div>
-<p>u can touch then send me a message</p>
+                <div class="w3-half">
+                    <img src="img/gbr6.png" class="w3-round-large" alt="Norway" style="width: 100%">
+                    <img src="img/gbr3.png" class="w3-round-large" alt="Norway" style="width: 100%">
 
-<form action="/action_page.php" target="_blank">
-<p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-<p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-<p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+                    <!--end photo grid-->
+                </div>
+                <!--end portofolio section-->
+            </div>
+            <!--contaact-->
+            <div class="w3-padding-64 w3-content w3-text-black" id="contact">
+                <h2 class="w3-text-light-black">Contact Me</h2>
 
-<p>
-    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-        <i class="fa fa-paper-plane"> SEND MESSAGE!!!!!</i> 
-    </button>
-</p>
-</form>
-<!--END CONTACT-->
-   </div>
-<!--footer-->
-    <footer class="w3-content w3-padding-64 w3-text-black w3-xlarge">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-github w3-hover-opacity"></i>
-    </footer>
-<!--end page content-->
-</div>
+                <div class="w3-section">
+                    <p><i class="fa fa-map-marker fa-fw w3-text-black w3-xlarge w3-margin-right"></i> Yogyakarta, Indonesia</p>
+                    <p><i class="fa fa-phone fa-fw w3-text-black w3-xlarge w3-margin-right"></i> Phone:, +62133067835</p>
+                    <p><i class="fa fa-envelope fa-fw w3-text-black w3-xlarge w3-margin-right"></i> Email: cindydea05@gmail.com</p>
+                    <!--class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"-->
+                </div>
+                <p>u can touch then send me a message</p>
+
+                <form action="/action_page.php" target="_blank">
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+                    <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+
+                    <p>
+                        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                            <i class="fa fa-paper-plane"> SEND MESSAGE!!!!!</i>
+                        </button>
+                    </p>
+                </form>
+                <!--END CONTACT-->
+            </div>
+            <!--footer-->
+            <footer class="w3-content w3-padding-10 w3-text-black w3-xlarge">
+                <a href="https://www.facebook.com/cindy.deaa.9?mibextid=LQQJ4d"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                <a href="https://instagram.com/cindy.deaa?igshid=NTc4MTIwNjQ2YQ=="> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+                <a href="https://github.com/CdeaA"><i class="fa fa-github w3-hover-opacity"></i></a>
+            </footer>
+            <!--end page content-->
+        </div>
 </body>
+
 </html>
